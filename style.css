@@ -340,13 +340,15 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  align-items: center; 
 }
 
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: left;
   gap: 0.5rem;
+  width: 8rem;
 }
 
 article .icon {
